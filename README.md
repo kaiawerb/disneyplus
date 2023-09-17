@@ -39,3 +39,4 @@ O projeto de design foi desenvolvido no Figma com base em múltiplos de 4, e voc
 ## ❤ Você também pode gostar de...
 
 - [League of Legends](https://github.com/kaiawerb/leagueoflegends-login) - Login Clone
+- [NLW - AI](https://github.com/kaiawerb/nlw-ai) - Shorts Summary
