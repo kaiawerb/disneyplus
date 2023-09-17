@@ -8,7 +8,7 @@
 
 <h4 align="center"></h4>
 
-![screenshot](https://github.com/kaiawerb/disneyplus-clone/assets/30848004/108bb542-3306-422d-89cf-eeb7357febb1)
+![screenshot](https://github.com/kaiawerb/disneyplus/assets/30848004/1309c02c-6e45-4b7e-96b6-6f71d748479e)
 
 ## 💻 Sobre o projeto
 
