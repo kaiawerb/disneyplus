@@ -1,0 +1,57 @@
+.navigation{
+    position: fixed;
+    top: 0;
+    right: -668px;
+
+
+    width: 408px;
+    height: 100%;
+    background: rgba(15, 58, 123, 1);
+
+    z-index: 1;
+    
+    padding: 64px 68px 0 52px;
+
+    transition: all 0.9s;
+}
+
+.navigation.active{
+    overflow: auto;
+    overflow-x: hidden;
+    right: 0;
+}
+
+.navigation h2{
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    margin-bottom: 32px;
+
+}
+
+.navigation::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+.navigation::-webkit-scrollbar-track{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 0.25rem;
+}
+
+.navigation::-webkit-scrollbar-thumb{
+    
+    background: rgb(255, 255, 255);
+    border-radius: 0.375rem;
+}
+
+
+@media(max-width: 768px){
+    .navigation{
+        width: 100vw;
+        right: -100vw;
+    }
+}
+
+@media(max-width: 425px){
+    
+}

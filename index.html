@@ -1,0 +1,73 @@
+<!--
+
+“We keep moving forward, opening up new doors and
+doing new things, because we’re curious ...
+and curiosity keeps leading us down new paths.”
+
+- Walt Disney
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Disney Plus</title>
+    <meta name="description" content="Só no Disney+ você encontra o melhor da Disney, Pixar, Marvel, Star Wars e National Geographic. Assine agora!" />
+
+    <link rel="shortcut icon" type="image/jpg" href="./assets/disney.ico" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/global.css" />
+    
+  </head>
+  <body>
+    <div id="app">
+      <div class="app_background">
+        <img src="https://image.tmdb.org/t/p/original/hiHGRbyTcbZoLsYYkO4QiCLYe34.jpg" alt="Imagem de Destaque do Filme" loading="lazy">
+      </div>
+
+      <header> <!-- Topo da aplicação -->
+        <img src="./assets/logo-disneyplus.png" alt="Logo Disney Plus">
+        <button type="button" class="button_menu" onclick="changeMenu()"> <!-- Menu -->
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="navigation">
+          <h2>Movies</h2>
+          <ul id="movies"><!-- Lista de Filmes -->
+
+          </ul>
+        </nav>
+      </header>
+      <main> <!-- Conteudo principal -->
+        <section class="featured-movie"><!-- Seção das informações do Filme/Serie principal -->
+          <div class="featured-movie-rating">
+            <img src="./assets/logo-imdb.png" alt="Logo IMDB">
+            <strong>Movie Rating</strong>
+          </div>
+
+          <span>Movie Genre</span>
+
+          <h1>Movie Title</h1>
+
+          <p>Movie Description</p>
+
+          <button type="button">
+            <img src="./assets/icon-play.png" alt="Icon Play Button" />
+            Assistir agora
+          </button>
+        </section>
+      </main>
+    </div>
+    <script src="./scripts/index.js"></script><!-- Script responsavel por controlar as informações acima através da API -->
+  </body>
+</html>
